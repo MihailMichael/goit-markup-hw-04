@@ -53,12 +53,11 @@ body {
 .list-info {
   padding-right: 40px;
 }
-.icon {
-  fill: #212121;
-}
-.icon:hover,
-.icon:focus {
-  fill: #2196f3;
+.right-nav-list a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .headerList {
   display: flex;
@@ -98,6 +97,7 @@ body {
 .link:hover,
 .link:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 /* First Section*/
@@ -411,6 +411,7 @@ button[type="button"] {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  border: 0;
 }
 .mark-botton:hover,
 .mark-botton:focus {
