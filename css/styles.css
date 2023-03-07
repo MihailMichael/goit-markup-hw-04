@@ -326,13 +326,11 @@ button[type="button"] {
   border-radius: 4px;
   fill: #afb1b8;
 }
-.customer-list:hover,
-.customer-list:focus {
-  border: 1px #2196f3 solid;
-}
+
 .customer-list a:hover,
 .customer-list a:focus {
   fill: #2196f3;
+  border-color: #2196f3;
 }
 /*Footer */
 .page-footer {
