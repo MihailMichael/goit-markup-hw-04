@@ -109,7 +109,10 @@ body {
   gap: 30px;
 }
 .first-section {
-  background: #2f303a;
+  background-image: url(/images/efective\ solution.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   height: 696px;
   display: flex;
   justify-content: center;
@@ -297,6 +300,7 @@ button[type="button"] {
 .social-list a:focus {
   fill: #ffffff;
 }
+/* Fifth Secrion */
 .fifth-section {
   display: flex;
   justify-content: center;
@@ -312,11 +316,23 @@ button[type="button"] {
   display: flex;
   gap: 30px;
 }
-.customer-list {
+.customer-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #afb1b8;
+}
+.customer-list:hover,
+.customer-list:focus {
+  border: 1px #2196f3 solid;
+}
+.customer-list a:hover,
+.customer-list a:focus {
+  fill: #2196f3;
 }
 /*Footer */
 .page-footer {
@@ -454,6 +470,52 @@ button[type="button"] {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+.item-cards a {
+  text-decoration: none;
+}
+.item-cards:hover,
+.item-cards:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .footer-portfolio {
   margin-top: 94px;
+}
+.social-media-footer {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 52px;
+  flex-direction: column;
+}
+.social-media-list-footer {
+  display: flex;
+  gap: 10px;
+  fill: #ffffff;
+}
+.icon-list-footer a {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+}
+#title-media-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+.icon-list-footer:hover,
+.icon-list-footer:focus {
+  background-color: #2196f3;
+  border-radius: 50%;
 }
